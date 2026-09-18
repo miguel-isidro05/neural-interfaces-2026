@@ -1,0 +1,6 @@
+# Pin exact versions once the challenge environment is finalized.
+# Example:
+# torch==
+# numpy==
+# mne==
+# neuralbench==

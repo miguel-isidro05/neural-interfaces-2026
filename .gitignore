@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# Data
+local/track2/datasets/raw/
+local/track2/datasets/processed/
+local/track3/datasets/raw/
+local/track3/datasets/processed/
+
+# Generated outputs
+local/track2/outputs/*
+!local/track2/outputs/README.md
+local/track3/outputs/*
+!local/track3/outputs/README.md
+
+# Weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
